@@ -14,7 +14,42 @@
 	color: #f1f1da;
 	text-shadow: 2px 2px 4px #000000;
 }
+.main {
+	text-align: center;
+}
 .main h1 {
 	text-align: center;
 	font-family: 'Philosopher' , sans-serif;
+	margin-top: 3rem;
+	text-shadow: 1px 1px 2px #f1f1da;
+}
+.main > input, button {
+	text-align: center;
+	font-family: 'Muli' , sans-serif;
+	display: inline-block;
+}
+#add1, #add2, #add3, #add4, #add5 {
+	border-radius: 10px;
+	background-color: #f1f1da;
+	border-color: #000000;
+}
+
+.allitems1, .allitems2, .allitems3, .allitems4, .allitems5 {
+	text-align: inherit;
+}
+ul {
+	list-style: none;
+	font-family: 'Philosopher' , sans-serif;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+}
+li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
