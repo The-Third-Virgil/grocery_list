@@ -47,9 +47,24 @@ ul {
 li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+
+}
+li.linethrough {
+	text-decoration: line-through;
 }
 hr {
 	border: 0;
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
+}
+.checked, .trash {
+	width: 1rem;
+	vertical-align: middle;
+
+}
+.checked {
+	padding-right: 1rem;
+}
+.trash {
+	padding-left: 1rem;
 }
