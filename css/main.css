@@ -16,11 +16,12 @@
 }
 .main {
 	text-align: center;
+	padding-bottom: 3rem;
 }
 .main h1 {
 	text-align: center;
 	font-family: 'Philosopher' , sans-serif;
-	margin-top: 3rem;
+	margin-top: 2.5rem;
 	text-shadow: 1px 1px 2px #f1f1da;
 }
 .main > input, button {
@@ -28,13 +29,14 @@
 	font-family: 'Muli' , sans-serif;
 	display: inline-block;
 }
-#add1, #add2, #add3, #add4, #add5 {
+#add1, #add2, #add3, #add4, #add5, #add6 {
 	border-radius: 10px;
 	background-color: #f1f1da;
 	border-color: #000000;
+	height: 1.6rem;
 }
 
-.allitems1, .allitems2, .allitems3, .allitems4, .allitems5 {
+.allitems1, .allitems2, .allitems3, .allitems4, .allitems5, .allitems6 {
 	text-align: inherit;
 }
 ul {
@@ -47,6 +49,7 @@ ul {
 li {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+	text-align: center;
 
 }
 li.linethrough {
