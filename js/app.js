@@ -79,7 +79,7 @@ $(document).ready(function() {
 		}
 		//otherwise, text is appended as a li to the shopping list
 		else {
-			$('.allitems5 ul').append("<li class='currentitem5'> <img class='checked' src='https://image.freepik.com/free-icon/check-mark-black-outline_318-49519.png'/>" + " " + something + " " + "<img src='http://www.pd4pic.com/images/cancel-delete-cross-check-box-check-tick-icon.png' class='trash'/></li>");	
+			$('.allitems5 ul').append("<li class='currentitem5'> <img class='checked' src='https://image.freepik.com/free-icon/check-mark-black-outline_318-49519.png' , '√'/>" + " " + something + " " + "<img src='http://www.pd4pic.com/images/cancel-delete-cross-check-box-check-tick-icon.png' , 'X' class='trash'/></li>");	
 		}
 		// resets the textbox after item is entered
 		$('#userinput5')[0].reset();
